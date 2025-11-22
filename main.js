@@ -3,8 +3,8 @@
  * Re-exports helper functions from local modules and exposes package metadata.
  */
 
-//const buttons = require('./lib/buttons');
-const buttons = require('./lib/buttons-wrapper');
+const buttons = require('./lib/buttons');
+//const buttons = require('./lib/buttons-wrapper');
 const pkg = require('./package.json');
 
 const getPackageInfo = () => ({
